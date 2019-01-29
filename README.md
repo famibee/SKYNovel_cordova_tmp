@@ -31,6 +31,6 @@ SKYNovel cordova template
  1. PC版のプロジェクトフォルダで「フォルダを開く」したVSCodeでタスク「webpack:dev:w」を実行し、index.jsを生成。
  2. ~~【VSCodeのCordova Tools 拡張機能】──現状「Gradleにパスが通らない」エラーが出るようです~~
  	- ~~【AND\:Dev】タスクを実行──現状エラーが出るようです~~
-	- （既知の問題）package.jsonの【scripts】【AND:Dev】タスクの中身を、直接ターミナルで実行して下さい。
+	- （既知の問題）package.jsonの【scripts】【AND\:Dev】タスクの中身を、直接ターミナルで実行して下さい。
  3. デバッグ（ざっくり云うとconsole.log()の表示が見える、ということ）については、こちらの記事が参考になります。
 	- [３分間でiOS、Android両対応アプリを作る - Qiita](https://qiita.com/teradonburi/items/5b214c74cddd776cb67f)
