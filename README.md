@@ -22,8 +22,8 @@ SKYNovel cordova template
  7. VSCodeやテキストエディタで「config.xml」「package.json」を変更（項目の意味は cordova について検索）
 
 ### 普段の開発
- 10. PC版のプロジェクトフォルダで「フォルダを開く」したVSCodeでタスク「webpack:dev:w」を実行し、index.jsを生成。
- 11. ｘ【AND:Dev】タスクを実行
+ 1. PC版のプロジェクトフォルダで「フォルダを開く」したVSCodeでタスク「webpack:dev:w」を実行し、index.jsを生成。
+ 2. ｘ【AND:Dev】タスクを実行
 	- （既知の問題）package.jsonの【scripts】【AND:Dev】タスクの中身を、直接ターミナルで実行して下さい。
- 12. デバッグ（ざっくり云うとconsole.log()の表示が見える、ということ）については、こちらの記事が参考になります。
+ 3. デバッグ（ざっくり云うとconsole.log()の表示が見える、ということ）については、こちらの記事が参考になります。
 	- [３分間でiOS、Android両対応アプリを作る - Qiita](https://qiita.com/teradonburi/items/5b214c74cddd776cb67f)
