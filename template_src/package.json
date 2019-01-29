@@ -1,0 +1,37 @@
+{
+	"name": "com.fc2.blog.famibee.skynovel.uc",
+	"displayName": "桜の樹の下には",
+	"version": "1.0.0",
+	"description": "A sample Apache Cordova application that responds to the deviceready event.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"AND:Dev": "cordova run android --device --verbose --no-update-notifier -- --live-reload",
+		"iOS:Dev": "cordova run ios --device --verbose --no-update-notifier --buildFlag='-UseModernBuildSystem=0' -- --live-reload"
+	},
+	"author": "活動漫画屋",
+	"dependencies": {
+		"browser-sync": "^2.26.3",
+		"cheerio": "^0.19.0",
+		"cordova-android": "^7.1.4",
+		"cordova-ios": "^4.5.5",
+		"cordova-plugin-browsersync": "^1.1.0",
+		"cordova-plugin-whitelist": "^1.3.3",
+		"csp-parse": "0.0.2",
+		"elementtree": "^0.1.7",
+		"glob": "^5.0.15",
+		"npm": "^2.15.12",
+		"plist": "^1.2.0",
+		"q": "^1.5.1"
+	},
+	"cordova": {
+		"plugins": {
+			"cordova-plugin-whitelist": {},
+			"cordova-plugin-browsersync": {}
+		},
+		"platforms": [
+			"ios",
+			"android"
+		]
+	}
+}
