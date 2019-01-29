@@ -17,7 +17,7 @@ SKYNovel cordova template
  3. ln -s prj mobile/www
  4. （Android版を作りたいなら）cordova platform add android
  5. （iOS版を・も作りたいなら）cordova platform add ios
-	- 後で削除・再度追加も自由に出来ます。詳細は上記コマンドで検索。
+	- 後で削除・再度追加も自由に出来ます。詳細は上記コマンドでネット検索。
  6. cordova requirements で、問題がありそうな表示が出ないか確認。ダメっぽい項目はメッセージをネット検索しては直していく。ここが一番大変。
  7. VSCodeやテキストエディタで「config.xml」「package.json」を変更（項目の意味は cordova についてネット検索）
 
@@ -34,3 +34,9 @@ SKYNovel cordova template
 	- （既知の問題）package.jsonの【scripts】【AND\:Dev】タスクの中身を、直接ターミナルで実行して下さい。
  3. デバッグ（ざっくり云うとconsole.log()の表示が見える、ということ）については、こちらの記事が参考になります。
 	- [３分間でiOS、Android両対応アプリを作る - Qiita](https://qiita.com/teradonburi/items/5b214c74cddd776cb67f)
+
+### アプリストアで頒布（Android版）
+ 1. （作成中...）
+
+### アプリストアで頒布（iOS版）
+ 1. （作成中...）
