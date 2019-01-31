@@ -10,6 +10,7 @@
 		"iOS:Dev": "cordova run ios --device --verbose --no-update-notifier --buildFlag='-UseModernBuildSystem=0' -- --live-reload"
 	},
 	"author": "活動漫画屋",
+	"license": "Apache-2.0",
 	"dependencies": {
 		"browser-sync": "^2.26.3",
 		"cheerio": "^0.19.0",
